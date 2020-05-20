@@ -1,6 +1,6 @@
 #pragma once
 
-#include <Mandatorio.h>
+#include "Mandatorio.h"
 
 namespace VentiladorMecanicoModel
 {
