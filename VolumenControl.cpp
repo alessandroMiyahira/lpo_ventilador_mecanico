@@ -2,7 +2,7 @@
 
 using namespace VentiladorMecanicoModel;
 
-VolumenControl::VolumenControl(float tiempoInspiracion, float triggerFlujo, float frecuencia, float volumenCorriente, float alarmaPresionMax):Mandatorio( PEEP, concentracionO2, retardoInspiratorio,complacencia, resistenciaAlveolar,tiempoInspiracion,triggerFlujo,frecuencia) {
+VolumenControl::VolumenControl( float volumenCorriente, float alarmaPresionMax) {
 	this-> volumenCorriente;
 	this-> alarmaPresionMax;
 }
