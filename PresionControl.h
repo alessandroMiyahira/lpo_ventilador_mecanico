@@ -5,7 +5,7 @@ namespace VentiladorMecanicoModel{
 	
 	using namespace System;
 	
-	public ref class PresionControl  {
+	public ref class PresionControl: public ModoVentilatorio  {
 	
 	private:
 		float alarmaVolMin;
