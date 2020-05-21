@@ -5,7 +5,7 @@
 namespace VentiladorMecanicoModel
 {
 	using namespace System;
-	public ref class VolumenControl :public Mandatorio 
+	public ref class VolumenControl 
 	{
 	private:
 		float volumenCorriente;
