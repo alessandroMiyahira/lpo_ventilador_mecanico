@@ -5,7 +5,7 @@
 namespace VentiladorMecanicoModel
 {
 	using namespace System;
-	public ref class modoVentilatorio 
+	public ref class ModoVentilatorio 
 	{
 	private:
 		 float PEEP;
@@ -14,6 +14,6 @@ namespace VentiladorMecanicoModel
      float complasencia;
      float resistenciaAlveolar;
 	public:
-		VolumenControl(float PEEP, float concentracionO2, float retardoInspiratorio, float complasencia, float resistenciaAlveolar );
+		ModoVentilatorio(float PEEP, float concentracionO2, float retardoInspiratorio, float complasencia, float resistenciaAlveolar );
 	};
 }
