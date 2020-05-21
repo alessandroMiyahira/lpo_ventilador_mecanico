@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Mandatorio.h"
+
 
 namespace VentiladorMecanicoModel
 {
@@ -11,6 +11,6 @@ namespace VentiladorMecanicoModel
 		float volumenCorriente;
 		float alarmaPresionMax;
 	public:
-		VolumenControl(float tiempoInspiracion, float triggerFlujo, float frecuencia, float volumenCorriente, float alarmaPresionMax );
+		VolumenControl( float volumenCorriente, float alarmaPresionMax );
 	};
 }
