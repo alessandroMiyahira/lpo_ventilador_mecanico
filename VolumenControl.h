@@ -12,6 +12,6 @@ namespace VentiladorMecanicoModel
 		float alarmaPresionMax;
 		
 	public:
-		VolumenControl( float volumenCorriente, float alarmaPresionMax );
+		VolumenControl(float PEEP, float concentracionO2, float retardoInspiratorio, float complasencia, float resistenciaAlveolar, float volumenCorriente, float alarmaPresionMax );
 	};
 }
