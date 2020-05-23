@@ -2,10 +2,11 @@
 
 using namespace VentiladorMecanicoModel;
 
-Persona::Persona(String^ nombre, String^ apellido, String^ DNI, String^ sexo, float estatura, String^ fechaIngreso, String^ horaIntubacion, int edad, String^ horaEntrada)
+Persona::Persona(String^ nombre, String^ apellidoPaterno, String^apellidoMaterno, String^ DNI, String^ sexo, float estatura, String^ fechaIngreso, String^ horaIntubacion, int edad, String^ horaEntrada)
 {
 	this->nombre = nombre;
-	this->apellido = apellido;
+	this->apellidoPaterno= apellidoPaterno;
+	this->apellidoMaterno = apellidoMaterno;
 	this->DNI = DNI;
 	this->sexo = sexo;
 	this->estatura = estatura;
